@@ -23,7 +23,7 @@ class Task extends Component {
             <CardBody>
               <div className="col"> {this.props.text}</div>
               <div className="col">
-                <Button color="success" onClick={this.props.finishHandler}>
+                <Button color="secondary" onClick={this.props.finishHandler}>
                   Завершить
                 </Button>
               </div>
